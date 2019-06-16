@@ -99,13 +99,13 @@
 <distributionManagement>
      <repository>
        <id>nexus</id>
-       <name>Mithun Technologies Releases Nexus Repository</name>
-       <url>http://localhost:9000/sivatechnologies/repository/mithun-releases/</url>
+       <name>siva Technologies Releases Nexus Repository</name>
+       <url>http://localhost:8081/sivatechnologies/repository-releases/</url>
      </repository>
      <snapshotRepository>
        <id>nexus</id>
-       <name>Mithun Technologies Snapshot Nexus Repository </name>
-       <url>http://localhost:9000/sivatechnologies/repository/maven-snapshots/</url>
+       <name>siva Technologies Snapshot Nexus Repository </name>
+       <url>http://localhost:8081/sivatechnologies/repository-snapshots/</url>
      </snapshotRepository>
    </distributionManagement>
   <build>
