@@ -22,7 +22,7 @@ node {
 	   bat  'mvn package'
 	}
 	stage('deploy into Tomcat'){
-	   sh 'cp worksapce/target/*.war  TOMCAT_DIRECTORY/webapps/'
+	   sh 'cp \workspace\Testing pipeline\target\maven-web-project-1.0-SNAPSHOT.war  TOMCAT_DIRECTORY/webapps/'
 	}
 	
 	
