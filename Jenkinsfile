@@ -18,4 +18,7 @@ node {
                     bat  'mvn test'
                 }
        
+	stage('package'){
+	   bat  'mvn package'
+	}
 }
