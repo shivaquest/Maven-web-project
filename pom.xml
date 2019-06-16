@@ -100,12 +100,12 @@
      <repository>
        <id>nexus</id>
        <name>siva Technologies Releases Nexus Repository</name>
-       <url>http://localhost:8081/sivatechnologies/repository-releases/</url>
+       <url>http://localhost:8081/repository/siva-technologies-releases/</url>
      </repository>
      <snapshotRepository>
        <id>nexus</id>
        <name>siva Technologies Snapshot Nexus Repository </name>
-       <url>http://localhost:8081/sivatechnologies/repository-snapshots/</url>
+       <url>http://localhost:8081/repository/siva-technologies-snapshots/</url>
      </snapshotRepository>
    </distributionManagement>
   <build>
