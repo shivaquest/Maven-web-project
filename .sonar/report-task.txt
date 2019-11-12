@@ -1,6 +1,0 @@
-projectKey=DevOpsproject
-serverUrl=http://localhost:9000
-serverVersion=7.0.0.36138
-dashboardUrl=http://localhost:9000/dashboard/index/DevOpsproject
-ceTaskId=AW4v6aQVVEbHtAKQ0QV6
-ceTaskUrl=http://localhost:9000/api/ce/task?id=AW4v6aQVVEbHtAKQ0QV6
