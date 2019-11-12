@@ -11,8 +11,8 @@
   <description>Maven Web Project for Java</description>
 
  <organization>
-     <name>Mithun Technologies</name>
-     <url>http://mithuntechnologies.com/</url>
+     <name>Shiva Technologies</name>
+     <url>http://shivatechnologies.com/</url>
  </organization>
 
   <properties>
@@ -32,15 +32,15 @@
   </properties>
 
     <scm>
-        <connection>scm:git:https://github.com/devopstrainingblr/Maven-Web-Project</connection>
-        <developerConnection>scm:git:https://github.com/devopstrainingblr/Maven-Web-Project</developerConnection>
+        <connection>scm:git:https://github.com/shivaquest/Maven-web-project</connection>
+        <developerConnection>scm:git:https://github.com/shivaquest/Maven-web-project</developerConnection>
         <tag>HEAD</tag>
-        <url>https://github.com/devopstrainingblr/Maven-Web-Project</url>
+        <url>https://github.com/shivaquest/Maven-web-project</url>
     </scm>
 	
     <issueManagement>
         <system>GitHub</system>
-        <url>https://github.com/devopstrainingblr/Maven-Web-Project/issues</url>
+        <url>https://github.com/shivaquest/Maven-web-project/issues</url>
     </issueManagement>
 	
 	
