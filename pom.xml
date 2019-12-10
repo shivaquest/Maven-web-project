@@ -96,6 +96,18 @@
 			<version>${spring.version}</version>
 		</dependency>
   </dependencies>
+<distributionManagement>
+     <repository>
+       <id>nexus</id>
+       <name>Releases Nexus Repository</name>
+       <url>http://3.135.217.25:8081/repository/Web_releases/</url>
+     </repository>
+     <snapshotRepository>
+       <id>nexus</id>
+       <name>Snapshot Nexus Repository </name>
+       <url>http://3.135.217.25:8081/repository/Web_snapshots/</url>
+     </snapshotRepository>
+ </distributionManagement>
   
   <build>
     <plugins>
@@ -160,16 +172,5 @@
       </build>
     </profile>
   </profiles>
- <distributionManagement>
-     <repository>
-       <id>nexus</id>
-       <name>Releases Nexus Repository</name>
-       <url>http://3.135.217.25:8081/repository/Web_releases/</url>
-     </repository>
-     <snapshotRepository>
-       <id>nexus</id>
-       <name>Snapshot Nexus Repository </name>
-       <url>http://3.135.217.25:8081/repository/Web_snapshots/</url>
-     </snapshotRepository>
-  </distributionManagement>
+ 
 </project>
