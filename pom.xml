@@ -104,7 +104,7 @@
         <url>http://3.133.142.8:8081/repository/maven2-releases/</url>
     </repository>
     <snapshotRepository>
-        <id>snapshots</id>
+        <id>nexus</id>
         <name>nexus snapshots</name>
         <url>http://3.133.142.8:8081/repository/maven2-snapshots/</url>
     </snapshotRepository>
