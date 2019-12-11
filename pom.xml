@@ -97,16 +97,16 @@
 		</dependency>
   </dependencies>
 <distributionManagement>
-     <repository>
-       <id>nexus</id>
-       <name>Releases Nexus Repository</name>
-       <url>http://18.222.12.148:8081/repository/Web_releases/</url>
-     </repository>
-     <snapshotRepository>
-       <id>nexus</id>
-       <name>Snapshot Nexus Repository </name>
-       <url>http://18.222.12.148:8081/repository/Web_snapshots/</url>
-     </snapshotRepository>
+    <repository>
+        <id>central</id>
+        <name>ip-172-31-3-42.us-east-2.compute.internal-releases</name>
+        <url>http://3.135.218.237:8081/artifactory/web_releases</url>
+    </repository>
+    <snapshotRepository>
+        <id>snapshots</id>
+        <name>ip-172-31-3-42.us-east-2.compute.internal-snapshots</name>
+        <url>http://3.135.218.237:8081/artifactory/web_snapshots</url>
+    </snapshotRepository>
  </distributionManagement>
   
   <build>
