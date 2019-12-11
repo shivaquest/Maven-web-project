@@ -96,18 +96,19 @@
 			<version>${spring.version}</version>
 		</dependency>
   </dependencies>
+
 <distributionManagement>
     <repository>
         <id>nexus</id>
         <name>nexus releases</name>
-        <url>http://3.14.133.6:8081/repository/Web_releases/</url>
+        <url>http://3.133.142.8:8081/repository/maven2-releases/</url>
     </repository>
     <snapshotRepository>
         <id>snapshots</id>
         <name>nexus snapshots</name>
-        <url>http://3.14.133.6:8081/repository/Web_snapshots/</url>
+        <url>http://3.133.142.8:8081/repository/maven2-snapshots/</url>
     </snapshotRepository>
- </distributionManagement>
+</distributionManagement>
   
   <build>
     <plugins>
