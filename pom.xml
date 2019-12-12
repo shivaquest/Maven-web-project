@@ -101,12 +101,12 @@
      <repository>
 	<id>jfrog</id>
 	<name>ip-172-31-3-42.us-east-2.compute.internal-releases</name>
-	<url>http://3.15.231.82:8081/artifactory/web_releases</url>
+	<url>http://52.14.19.237:8081/artifactory/web_releases</url>
      </repository>
      <snapshotRepository>
 	<id>jfrog</id>
 	<name>ip-172-31-3-42.us-east-2.compute.internal-snapshots</name>
-	<url>http://3.15.231.82:8081/artifactory/web_snapshots</url>
+	<url>http://52.14.19.237:8081/artifactory/web_snapshots</url>
      </snapshotRepository>
 </distributionManagement>
 
