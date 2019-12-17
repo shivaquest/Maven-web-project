@@ -99,14 +99,14 @@
 
 <distributionManagement>	
      <repository>
-	<id>jfrog</id>
-	<name>ip-172-31-3-42.us-east-2.compute.internal-releases</name>
-	<url>http://52.14.19.237:8081/artifactory/web_releases</url>
+	<id>nexus</id>
+	<name>web-releases</name>
+	<url>http://3.133.154.36:8081/repository/Web_releases/</url>
      </repository>
      <snapshotRepository>
-	<id>jfrog</id>
-	<name>ip-172-31-3-42.us-east-2.compute.internal-snapshots</name>
-	<url>http://52.14.19.237:8081/artifactory/web_snapshots</url>
+	<id>nexus</id>
+	<name>web-snapshots</name>
+	<url>http://3.133.154.36:8081/repository/Web_snapshots/</url>
      </snapshotRepository>
 </distributionManagement>
 
